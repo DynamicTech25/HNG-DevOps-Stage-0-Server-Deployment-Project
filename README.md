@@ -1,12 +1,22 @@
-# HNG-DevOps-Stage-0-Server-Deployment-Project
-This project is part of the HNG Internship 14 DevOps track. The goal was to deploy and configure a secure Ubuntu server with a working web service and API endpoint.
+# Production-Style NGINX Web Server Deployment on AWS EC2 (HNG Stage 0)
+This project demonstrates the deployment and configuration of a lightweight production-style web server using AWS EC2, Linux (Ubuntu) and NGINX. It simulates a real-world DevOps workflow where a cloud instance is provisioned, secured and configured to serve web traffic via HTTP.
+This project further demonstrates foundational DevOps capabilities in cloud provisioning, Linux administration and web server deployment, forming the basis for scalable infrastructure engineering practices.
+
+## Objectives
+- Provision a virtual server using AWS EC2
+- Secure SSH access using key-based authentication
+- Install and configure NGINX web server
+- Deploy a simple API endpoint or static web page
+- Validate public access via HTTP
+- Document deployment workflow clearly
 
 
 # Infrastructure Setup
 - Cloud Provider: AWS EC2  
 - OS: Ubuntu 22.04 LTS  
 - Web Server: Nginx  
-- Domain: Namecheap  
+- Domain: Namecheap
+- Protocol: HTTP / SSH
 - SSL: Let’s Encrypt (Certbot)  
 
 
@@ -61,6 +71,12 @@ https://dynamicinitiative.online/api
 - ├── api/
 - └── screenshots/
 
+## Outcome
+- Successfully deployed a publicly accessible web server
+- Gained hands-on experience with cloud infrastructure
+- Understood Linux server management fundamentals
+- Configured and managed NGINX in a real environment
+
 ## Key Learnings
 - Linux server administration
 - Nginx configuration and routing
@@ -70,6 +86,7 @@ https://dynamicinitiative.online/api
 - Domain DNS configuration
 
  # Author
-- Name: Damilola Balogun
-- HNG Username: Dynamic_D
-- Track: DevOps Intern
+ -------------------------------------------------------
+## DynamicTech25
+- Aspiring Cloud & DevOps Engineer
+- HNG DevOps Intern
