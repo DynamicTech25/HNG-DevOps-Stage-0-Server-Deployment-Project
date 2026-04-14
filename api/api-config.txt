@@ -1,0 +1,9 @@
+Endpoint: /api
+Method: GET
+Response: JSON
+
+{
+  "message": "HNGI14 Stage 0",
+  "track": "DevOps",
+  "username": "Dynamic_D"
+}
